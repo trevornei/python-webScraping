@@ -16,7 +16,13 @@ with open('home.html', 'r') as html_file:
 
 
     # Print all h5 tags
-    courses_html_tags = soup.find_all('h5')
-    print(courses_html_tags)
+    # courses_html_tags = soup.find_all('h5')
+    # print(courses_html_tags)
 
-    # Grab the price for all of the courses.
+    # Prints all of the course titles.
+    # course_cards = soup.find_all('div', class_='card')
+    # for course in course_cards: 
+    #     print(course.h5.text)
+    
+    
+    
